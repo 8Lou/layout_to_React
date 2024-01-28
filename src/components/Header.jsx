@@ -6,7 +6,7 @@ const Header = () => {
 
   const Menu = () => {
     return (
-      <ul>
+      <ul className='menu__list'>
         {menuData.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
@@ -15,13 +15,9 @@ const Header = () => {
   };
 
   return (
-    <div>
-      <div>
-        <Logo />
-      </div>
-      <div>
-        <Menu />
-      </div>
+    <div className='menu'>
+      <Logo />
+      <Menu />
     </div>
   );
 };
