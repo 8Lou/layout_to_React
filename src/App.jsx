@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
-import Main from './components/Slider';
-import { wideImages } from './assets/carouselData';
+import Main from './components/Main';
+import { SliderImage } from './assets/carouselData';
 // import img from './assets/img/0.jpeg'
 
 const App = () => {
@@ -9,7 +9,8 @@ const App = () => {
     <div>
       <Header />
       {/* <div><img src={img}></img></div> */}
-      <Main img={wideImages}></Main>
+      {/* <Main img={SliderImage}></Main> */}
+      <Main />
     </div>
   );
 };
