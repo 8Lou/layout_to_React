@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+
 import SliderImage from '../../src/assets/img/0.jpeg';
 import SliderImage1 from '../../src/assets/img/3.jpeg';
 import SliderImage2 from '../../src/assets/img/2.jpeg';
@@ -17,9 +18,9 @@ function Main() {
     }, [sliderImages.length]);
 
     return (
-        <div>
-            <img src={sliderImages[currentSlide]} alt="Slider Image" />
-
+        <div className="container">
+            <img className="image" src={sliderImages[currentSlide]} alt="Slider Image" />
+            <p className='menu__title'>Leasing From Lou</p>
         </div>
     );
 }

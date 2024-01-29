@@ -8,8 +8,6 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* <div><img src={img}></img></div> */}
-      {/* <Main img={SliderImage}></Main> */}
       <Main />
     </div>
   );

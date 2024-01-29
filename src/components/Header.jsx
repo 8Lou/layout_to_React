@@ -1,6 +1,7 @@
 import React from 'react';
 import menuData from '../assets/menuData';
 import Logo from './Logo';
+import './index.css'
 
 const Header = () => {
 
