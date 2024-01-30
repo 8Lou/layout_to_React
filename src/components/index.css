@@ -50,3 +50,73 @@ body{
   position: absolute;
   margin-top: 300px;
 }
+/* .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+  color: white;
+  padding: 20px;
+}
+
+.footer__menu {
+  display: flex;
+  font-display: 1f 1f 1f 1f;
+}
+
+.footer__menu-list {
+  display: flex;  
+}
+
+.center-text {
+  text-align: center;
+} 
+.iconstore{
+  background-color: #fff;
+  height: 50px;
+  border-radius: 6px;
+}*/
+
+.footer{
+    background-color: #151515;
+    padding: 50px 0 32px;
+    color: #fff;
+}
+.footer__menu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.footer__menu-list{
+    max-width: 250px;
+}
+.foote__menu-title{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footer__menu-item + .footer__menu-item{ /* найти соседа */
+    padding-top: 20px; 
+}
+.app{    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 52px;
+}
+.app_item-img{
+    background-color: #fff;
+    height: 50px;
+    border-radius: 6px;
+}
+.footer__copy{
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.copy__nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
