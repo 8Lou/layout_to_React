@@ -50,34 +50,6 @@ body{
   position: absolute;
   margin-top: 300px;
 }
-/* .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #151515;
-  color: white;
-  padding: 20px;
-}
-
-.footer__menu {
-  display: flex;
-  font-display: 1f 1f 1f 1f;
-}
-
-.footer__menu-list {
-  display: flex;  
-}
-
-.center-text {
-  text-align: center;
-} 
-.iconstore{
-  background-color: #fff;
-  height: 50px;
-  border-radius: 6px;
-}*/
-
 .footer{
     background-color: #151515;
     padding: 50px 0 32px;
@@ -88,16 +60,16 @@ body{
     justify-content: space-around;
     margin-bottom: 50px;
 }
-.footer__menu-list{
+.footer__list{
     max-width: 250px;
 }
-.foote__menu-title{
+.footer__title{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     padding-bottom: 20px;
 }
-.footer__menu-item + .footer__menu-item{ /* найти соседа */
-    padding-top: 20px; 
+.footer__link{
+  margin-bottom: 50px;
 }
 .app{    
     display: flex;
@@ -119,4 +91,24 @@ body{
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+.youtube__blog{
+  padding: 100px;
+}
+.video__title{
+    margin: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.video__text{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.video__content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }

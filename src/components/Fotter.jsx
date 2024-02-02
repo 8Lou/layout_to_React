@@ -9,58 +9,58 @@ const Footer = () => {
         <footer className="footer">
 
             <nav className="footer__menu">
-                <ul className="footer__menu-list">
-                    <li className="footer__menu-item"><p className="footer__menu-title">Products</p></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">User</a></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">New</a></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">Sell your car</a></li>
+                <ul className="footer__list">
+                    <li><p className="footer__title">Products</p></li>
+                    <li><a href="#" className="footer__link">User</a></li>
+                    <li><a href="#" className="footer__link">New</a></li>
+                    <li><a href="#" className="footer__link">Sell your car</a></li>
                 </ul>
-                <ul className="footer__menu-list">
-                    <li className="footer__menu-item"><p className="footer__menu-title">Resources</p></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">Blog</a></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">FAQ</a></li>
-                    <li className="footer__menu-item"><a href="contacts.html" className="footer__menu-link">Contact us</a></li>
+                <ul className="footer__list">
+                    <li><p className="footer__title">Resources</p></li>
+                    <li><a href="#" className="footer__link">Blog</a></li>
+                    <li><a href="#" className="footer__link">FAQ</a></li>
+                    <li><a href="contacts.html" className="footer__link">Contact us</a></li>
                 </ul>
-                <ul className="footer__menu-list">
-                    <li className="footer__menu-item"><p className="footer__menu-title">Work With TrueCar</p></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">Dealers</a></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">Partners</a></li>
+                <ul className="footer__list">
+                    <li><p className="footer__title">Work With TrueCar</p></li>
+                    <li><a href="#" className="footer__link">Dealers</a></li>
+                    <li><a href="#" className="footer__link">Partners</a></li>
                 </ul>
-                <ul className="footer__menu-list">
-                    <li className="footer__menu-item"><p className="footer__menu-title">About</p></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">About us</a></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">Team</a></li>
-                    <li className="footer__menu-item"><a href="#" className="footer__menu-link">Careers</a></li>
+                <ul className="footer__list">
+                    <li><p className="footer__title">About</p></li>
+                    <li><a href="#" className="footer__link">About us</a></li>
+                    <li><a href="#" className="footer__link">Team</a></li>
+                    <li><a href="#" className="footer__link">Careers</a></li>
                 </ul>
             </nav>
             <ul className="app">
-                <li className="app__item">
-                    <a href="#" className="app__item__link">
+                <li>
+                    <a href="#">
                         <img className="app_item-img" src={appstore} alt="App Store" />
                     </a>
                 </li>
-                <li className="app__item">
-                    <a href="#" className="app__item__link">
+                <li>
+                    <a href="#">
                         <img className="app_item-img" src={googleplay} alt="Google Play" />
                     </a>
                 </li>
             </ul>
             <div className="footer__copy">
-                <p className="footer__copy-text">
+                <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
                     Labore vero eius dignissimos nemo architecto rerum natus aut amet distinctio in? Deleniti eaque dolorum ad provident alias distinctio dolore quibusdam velit.
                 </p>
-                <p className="footer__copy-text">
+                <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore vero eius dignissimos nemo architecto rerum natus aut amet<br />
                     distinctio in? Deleniti eaque dolorum ad provident alias distinctio dolore quibusdam velit.<br /><br />
                     © Louise 2024
                 </p>
             </div>
-            <nav className="copy__nav">
+            <nav>
                 <ul className="copy__nav-list">
-                    <li className="copy__nav-item"><a href="#" className="copy__nav-link">Terms of Service</a></li>
-                    <li className="copy__nav-item"><a href="#" className="copy__nav-link">Privacy Policy</a></li>
-                    <li className="copy__nav-item"><a href="#" className="copy__nav-link">Do not Sell My Personal Information</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Do not Sell My Personal Information</a></li>
                 </ul>
             </nav>
 

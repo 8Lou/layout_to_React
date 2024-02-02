@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-import SliderImage from '../../src/assets/img/0.jpeg';
+import SliderImage from '../../src/assets/img/1.jpeg';
 import SliderImage1 from '../../src/assets/img/3.jpeg';
 import SliderImage2 from '../../src/assets/img/2.jpeg';
 import Button from './Button';
-import YoutubeVideo from './YoutubeVideo';
 
 function Main() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -25,8 +24,6 @@ function Main() {
             <p className='menu__title'>Leasing From Lou</p>
             <Button className='button main__button'>FIND A CAR</Button>
             <div>
-                <h1>Главная страница</h1>
-                <YoutubeVideo />
             </div>
         </div>
     );
