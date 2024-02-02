@@ -1,20 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Main from './components/Main';
-import YoutubeVideo from './components/YoutubeVideo';
-import { SliderImage } from './assets/carouselData';
-import Footer from './components/Fotter';
-// import img from './assets/img/0.jpeg'
+import { Route, Routes } from 'react-router-dom';
+import './index.css';
+import Home from './pages/Home';
+import Cars from './pages/Cars';
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Main />
-      <YoutubeVideo />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<Cars />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 };
 
