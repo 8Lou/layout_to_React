@@ -7,10 +7,11 @@
 ### `npm test`
 ### `npm run build`
 
-Стэк технологий:
+## Стэк технологий:
 React; react-router-dom; 
 
-Сложности, с которыми столкнулась при написании приложения на React:
+## Сложности, с которыми столкнулась при написании приложения на React:
+
 1. Не визуализировались фото для слайдера главного экрана.
 Решение: 
 В файле где лежит тег img, импорт изображения, а в src обращаение к этому импорту.
@@ -27,3 +28,8 @@ React; react-router-dom;
 npm outdated
 npm install --save-dev jest @testing-library/react
 npm test
+
+-
+npm install selenium -webdriver
+node test.js
+В тестовом сценарии также можно использовать методы Selenium WebDriver: `findElement`, `sendKeys`, `click`, `getText`...
