@@ -5,34 +5,29 @@ import appstore from '../assets/img/appstore.svg';
 
 
 const Footer = () => {
+    const menuItems = [
+        { title: "Products", links: ["User", "New", "Sell your car"] },
+        { title: "Resources", links: ["Blog", "FAQ", "Contact us"] },
+        { title: "Work With TrueCar", links: ["Dealers", "Partners"] },
+        { title: "About", links: ["About us", "Team", "Careers"] },
+    ];
     return (
         <footer className="footer">
-
             <nav className="footer__menu">
-                <ul className="footer__list">
-                    <li><p className="footer__title">Products</p></li>
-                    <li><a href="#" className="footer__link">User</a></li>
-                    <li><a href="#" className="footer__link">New</a></li>
-                    <li><a href="#" className="footer__link">Sell your car</a></li>
-                </ul>
-                <ul className="footer__list">
-                    <li><p className="footer__title">Resources</p></li>
-                    <li><a href="#" className="footer__link">Blog</a></li>
-                    <li><a href="#" className="footer__link">FAQ</a></li>
-                    <li><a href="contacts.html" className="footer__link">Contact us</a></li>
-                </ul>
-                <ul className="footer__list">
-                    <li><p className="footer__title">Work With TrueCar</p></li>
-                    <li><a href="#" className="footer__link">Dealers</a></li>
-                    <li><a href="#" className="footer__link">Partners</a></li>
-                </ul>
-                <ul className="footer__list">
-                    <li><p className="footer__title">About</p></li>
-                    <li><a href="#" className="footer__link">About us</a></li>
-                    <li><a href="#" className="footer__link">Team</a></li>
-                    <li><a href="#" className="footer__link">Careers</a></li>
-                </ul>
+                {menuItems.map((item, index) => (
+                    <ul className="footer__list" key={index}>
+                        <li className="footer__link">
+                            <p className="footer__title">{item.title}</p>
+                        </li>
+                        {item.links.map((link, idx) => (
+                            <li className="footer__link" key={idx}>
+                                <a href="#">{link}</a>
+                            </li>
+                        ))}
+                    </ul>
+                ))}
             </nav>
+
             <ul className="app">
                 <li>
                     <a href="#">

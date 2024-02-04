@@ -69,8 +69,8 @@ body{
     font-weight: 500;
     padding-bottom: 20px;
 }
-.footer__link{
-  margin-bottom: 50px;
+.footer__link + .footer__link{
+  margin-bottom: 20px;
 }
 .app{    
     display: flex;
