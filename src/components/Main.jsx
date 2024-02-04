@@ -21,7 +21,7 @@ function Main() {
     return (
         <div className="container">
             <img className="image" src={sliderImages[currentSlide]} alt="Slider Image" />
-            <p className='menu__title'>Leasing From Lou</p>
+            <p className='leasing__title'>Leasing From Lou</p>
             <Button className='button main__button'>FIND A CAR</Button>
             <div>
             </div>
